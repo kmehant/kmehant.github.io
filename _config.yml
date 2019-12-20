@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -17,42 +17,65 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  sort_by options:
+      - pushed
+      - stars
+  limit: 6
   exclude:
     archived: false
-    forks: true
-    projects:
-    # - repo-name
+    forks: false
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+social_media:
+  facebook: kmehant
+  hackerrank: kmehant
+  instagram: kmehant
+  linkedin: mehant-kammakomati-1a0b41170/
+  medium: kmehant
+  stackoverflow: mehant-kammakomati
+  telegram: kmehant
+  twitter: mehant1
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Containers
+    web_url: https://github.com/topics/containers
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G535aBDD-bH50dDsxzqfdFeQw7Fhg9qt4oSAPao7gR3NNJwY&s
+    description: Docker, Podman and Buildah.
 
-  - name: Web design
+  - name: Orchestration
+    web_url: https://github.com/topics/kubernetes
+    image_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+    description: Kubernetes.
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
+    description: Software development in Python.
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png
+    description: Problem solving and competitive programming in C++.
+
+  - name: Flask
+    web_url: https://github.com/topics/flask
+    image_url: https://www.todesktop.com/images/1c2437c139969ae8e4100b477fb824f1.svg
+    description: Web development using Flask.
+
+  - name: Unix tools and programming
+    web_url: https://en.wikipedia.org/wiki/List_of_Unix_commands
+    image_url: https://bashlogo.com/img/symbol/png/full_colored_dark.png
+    description: Unix tools and bash scripting.
+
+schools:
+  - name: National Institute of Technology, Andhra Pradesh (2018-2022)
+    web_url: https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Andhra_Pradesh
+    image_url: https://upload.wikimedia.org/wikipedia/en/3/36/NIT_Andhra_Pradesh.png
+    description: Undergraduate in Computer Science and Engineering. CGPA 8.9/10
+  - name: Narayana Junior College (2016-2018)
+    web_url: https://www.narayanagroup.com/
+    image_url: https://www.logolynx.com/images/logolynx/33/338f2c4e0d48a27ed6ad2a72821d3721.jpeg
+    description: Studied Science and Mathematics. Scored 97% in Intermediate Public Exam.
+  - name: Niraj Public School (2016)
+    web_url: http://www.nirajpublicschool.com/
+    image_url: https://indianplayschools.com/wp-content/uploads/Niraj-Public-School-Logo-wpcf_202x200.jpeg
+    description: Studied Science, Mathematics and Computer Applications. Recipient of NRK Moorthy Gold Medal. Secured 96% in Indian Certificate for Secondary Education Board Exam. 
